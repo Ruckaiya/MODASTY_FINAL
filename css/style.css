@@ -2107,6 +2107,7 @@
     	line-height: 20px;
     	font-weight: 700;
     	text-transform: uppercase;
+		font-size: 14px;
     }
 
     .benefit-items .single-benefit .sb-text p {
@@ -2114,6 +2115,16 @@
     	color: #252525;
     	line-height: 20px;
     }
+
+	@media only screen and (max-width: 500px) {
+		.benefit-items .single-benefit .sb-text h6 {
+			font-size: 11.4px;
+		}
+
+		.benefit-items .single-benefit .sb-text p {
+			font-size: 14px;
+		}
+	}
 
     /*---------------------
   Partner Logo
