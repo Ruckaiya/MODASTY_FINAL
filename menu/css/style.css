@@ -379,9 +379,25 @@ Main components
   }
 }
 
+
+@media only screen and (max-width: 767px) {
  .container-nav ul:first-child {
-   top: 9.5vh;
+   top: calc((100% - 355px) / 4)
  }
+}
+
+@media screen and (max-width: 1169px) and (min-width: 768px) {
+  .container-nav ul:first-child {
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1170px) {
+  .container-nav ul:first-child {
+    top: 60%;
+  }
+}
+
 .cd-primary-nav, .cd-primary-nav ul {
   position: fixed;
   top: 0;
@@ -596,7 +612,7 @@ Main components
   }
   .cd-primary-nav > li {
     float: left;
-    margin-left: 1em; 
+    /* margin-left: 1em;  */
   }
   .cd-primary-nav > li > a {
     /* main navigation buttons style */
