@@ -1939,7 +1939,10 @@ padding: 10px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    
+    }
+
+    .accordion-12.active {
+        background-color: #EF9797;
     }
     
     .accordion-12 i {
