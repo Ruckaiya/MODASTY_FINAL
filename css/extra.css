@@ -168,6 +168,7 @@ background:rgba(165, 165, 165, 0.5); */
     overflow: hidden;
     /* height:60px; */
     animation: fadeOutLeft 1s both;
+    padding-top: 10px;
 }
 
 .Modern-Slider .item.slick-active h3 {
@@ -468,17 +469,18 @@ background:rgba(165, 165, 165, 0.5); */
     margin-top: 40px;
 }
 
+/*
 .info{
-   /* width: 50%;
+ width: 50%;
    background-color: #fff;
    z-index: 1;
    padding: 35px 40px;
    box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1),
    0 -15px 35px rgba(0, 0, 0, 0.1),
-   0 15px 35px rgba(0, 0, 0, 0.1); */
-   padding: 0px 40px;
+   0 15px 35px rgba(0, 0, 0, 0.1); 
+   padding: 0px 40px; */
   
-}
+
 
 /* @media (min-width:767px) {
    .info {
