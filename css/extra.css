@@ -1656,7 +1656,7 @@ padding: 10px;
 	color: #3d3d3d !important;
 	opacity: 1 !important;
 }
-.reviews-section .carousel-control-prev-icon, .carousel-control-next-icon {
+/* .reviews-section .carousel-control-prev-icon, .carousel-control-next-icon {
 	background-image: none;
 	color: #fff;
 	font-size: 14px;
@@ -1664,7 +1664,7 @@ padding: 10px;
 	height: 32px;
 	line-height: 32px;
 	width: 32px;
-}
+} */
 .reviews-section .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
 	opacity: 0.85;
 }
