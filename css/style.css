@@ -1334,8 +1334,8 @@
   Hero Section
 -----------------------*/
 
-    .hero-items .single-hero-items {
-    	height: 725px;
+    .hero-items .single-hero-items .banner-text{
+    	/* height: 725px; */
     	padding-top: 210px;
     }
 
@@ -4209,8 +4209,9 @@
     		font-size: 12px;
     	}
 
-    	.hero-items .single-hero-items {
-    		padding: 110px 25px 80px;
+    	.hero-items .single-hero-items .banner-text{
+			/* from padding: 1100px 25px 80px; */
+    		padding: 0px;
     		height: auto;
     		background: left center;
     	}
@@ -4218,6 +4219,10 @@
     	.hero-items .single-hero-items h1 {
     		font-size: 40px;
     	}
+
+		.hero-items .single-hero-items p {
+			width: 80%;
+		}
 
     	.blog-details-inner .tag-share .details-tag ul li {
     		margin-right: 10px;
@@ -4278,6 +4283,7 @@
 
     }
 
+ 
     /* Small Device: 320px */
 
     @media only screen and (max-width: 479px) {

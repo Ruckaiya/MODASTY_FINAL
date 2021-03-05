@@ -1143,3 +1143,37 @@ support for no js
 .header-links {
   padding-top: 8px;
 }
+
+ @media only screen and (max-width: 989px) {
+   .banner-d {
+     display: none !important;
+   }
+
+   .banner-m {
+     display: none !important;
+   }
+ }
+
+ @media only screen and (min-width: 990px) {
+   .banner-d {
+     display: none !important;
+   }
+
+   .banner-s {
+     display: none !important;
+   }
+ }
+
+ @media only screen and (min-width: 1180px) {
+   .banner-m {
+     display: none !important;
+   }
+
+   .banner-s {
+     display: none !important;
+   }
+
+   .banner-d {
+     display: block !important;
+   }
+ }
