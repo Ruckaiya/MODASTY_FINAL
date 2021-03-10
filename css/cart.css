@@ -177,7 +177,7 @@
      .cart-page__wishlist .product-tile-carousel {
          max-width: 95%;
      }
- }
+ } 
 
  .cart-page__wishlist {
      margin-bottom: 20px;
@@ -247,6 +247,19 @@
      }
  }
 
+ @media only screen and (min-width: 990px) and (max-width: 1199px) {
+     .cart-page__content {
+         width: 70%;
+     }
+
+     .cart-page__summary {
+         width: 30%;
+     }
+
+     .outer-container .container {
+         max-width:900px;
+     }
+ }
  .cart-page__discounts {
      position: relative;
      background-color: #f3f3f3;
